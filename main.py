@@ -14,5 +14,7 @@ This is our first Web App.
 Enjoy it!
 """)
 st.write(df)
+
+st.line_chart(df)
 st.button('Submit')
 # st.write(m.run(window=15))
